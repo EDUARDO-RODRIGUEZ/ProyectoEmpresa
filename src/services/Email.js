@@ -4,10 +4,10 @@ export async function SendEmail(name, email, message, subject) {
     const params = { name, email, message, subject };
     try {
         await emailjs.send(
-            import.meta.env.VITE_EMAIL_SERVICE,
-            import.meta.env.VITE_EMAIL_TEMPLATEID,
+            "service_gkfa2d5",
+            "template_0tidwi4",
             params,
-            import.meta.env.VITE_EMAIL_PUBLICKEY
+            "GJET4e8e275f2VfUJ"
         );
         console.log("succes email");
         return true;

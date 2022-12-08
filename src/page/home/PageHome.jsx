@@ -21,6 +21,7 @@ const PageHome = () => {
                             </Animated>
 
                             <div className='text-justify'>
+                                <p className='text-xl my-2 font-bold'>Quienes Somos?</p>
                                 SOFBO es una empresa especializada en servicios de desarrollo de software a medida que brinda soluciones utilizando tecnologías de última generación.
                             </div>
                         </div>
