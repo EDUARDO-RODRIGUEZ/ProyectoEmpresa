@@ -7,7 +7,7 @@ import lsbicon from '../assets/image/lsbicon.png';
 const Proyecto = () => {
     return (
         <div className="container mx-auto bg-base-100 p-5">
-            <h2 className='text-center fredoka text-3xl mb-5'>Nustros Proyectos</h2>
+            <h2 className='text-center fredoka text-3xl mb-5'>Nustros Productos</h2>
             <div className='flex flex-wrap gap-4 justify-center sm:justify-between'>
 
                 <a href="https://hands-sign.netlify.app/" target="_blank">

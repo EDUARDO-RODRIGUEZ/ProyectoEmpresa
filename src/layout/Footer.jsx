@@ -7,7 +7,7 @@ const Footer = () => {
                 <div className='flex justify-between'>
                     <div className='p-5 w-2/3'>
                         <h3 className='fredoka text-xl'>
-                            <span className={"text-red-500"}>DEV</span>
+                            <span className={"text-red-500"}>BOLIVIA</span>
                             <span>SOFT</span>
                         </h3>
                         <div className='text-justify w-3/4'>

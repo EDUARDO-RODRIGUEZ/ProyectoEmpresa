@@ -9,7 +9,7 @@ const Header = () => {
                 <div className="container mx-auto navbar bg-base-100 border-b">
                     <div className="flex-1">
                         <Link to={"/"} className="btn btn-ghost normal-case text-2xl fredoka">
-                            <span className={"text-red-500"}>DEV</span>
+                            <span className={"text-red-500"}>BOLIVIA</span>
                             <span>SOFT</span>
                         </Link>
                     </div>
@@ -17,8 +17,9 @@ const Header = () => {
                         <ul className="menu menu-horizontal p-0">
                             <li><Link to={"/"} className='rounded-md' >Home</Link></li>
                             <li><Link to={"/servicio"} className='rounded-md'>Servicios</Link></li>
-                            <li><Link to={"/proyecto"} className='rounded-md'>Proyectos</Link></li>
+                            <li><Link to={"/proyecto"} className='rounded-md'>Nuestros Productos</Link></li>
                             <li><Link to={"/contacto"} className='rounded-md'>Contactos</Link></li>
+                            <li><Link to={"/about"} className='rounded-md'>Acerca de nosotros</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -28,8 +29,9 @@ const Header = () => {
                         <ul className="menu menu-horizontal p-0">
                             <li><Link to={"/"} className='rounded-md' >Home</Link></li>
                             <li><Link to={"/servicio"} className='rounded-md'>Servicios</Link></li>
-                            <li><Link to={"/proyecto"} className='rounded-md'>Proyectos</Link></li>
+                            <li><Link to={"/proyecto"} className='rounded-md'>Productos</Link></li>
                             <li><Link to={"/contacto"} className='rounded-md'>Contactos</Link></li>
+                            <li><Link to={"/about"} className='rounded-md'>Acerca de Nosotros</Link></li>
                         </ul>
                     </div>
                 </div>

@@ -14,7 +14,7 @@ const PageHome = () => {
 
                     <Animated animationIn="fadeInLeft" isVisible={true}>
                         <div>
-                            <h1 className='fredoka text-4xl md:text-6xl my-4'>Software Development</h1>
+                            <h1 className='fredoka text-4xl md:text-6xl my-4'>Desarrollo de Software</h1>
 
                             <Animated className='block sm:hidden' animationIn="fadeInDown" isVisible={true}>
                                 <img src={iconEmpresa} alt="sds" />
