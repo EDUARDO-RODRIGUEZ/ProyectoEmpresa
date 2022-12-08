@@ -7,11 +7,11 @@ const Footer = () => {
                 <div className='flex justify-between'>
                     <div className='p-5 w-2/3'>
                         <h3 className='fredoka text-xl'>
-                            <span className={"text-red-500"}>DEV</span>
-                            <span>SOFT</span>
+                            <span className={"text-red-500"}>SOFT</span>
+                            <span>BO</span>
                         </h3>
                         <div className='text-justify w-3/4'>
-                            Lorem ipsum dolor amet consectetur adi pisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis.nostrud exercita.laboris nisi ut aliquip ea commodo conse quatuis aute irure.
+                            SOFBO es una empresa especializada en servicios de desarrollo de software a medida que brinda soluciones utilizando tecnologías de última generación.
                         </div>
                     </div>
 

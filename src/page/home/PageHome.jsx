@@ -21,7 +21,7 @@ const PageHome = () => {
                             </Animated>
 
                             <div className='text-justify'>
-                                Eiusmod excepteur cillum reprehenderit anim nisi dolor nisi reprehenderit mollit qui ea est sint eiusmod. Commodo dolore sunt in occaecat incididunt ipsum ipsum velit ad. Irure excepteur voluptate magna cillum do ut ullamco. Et consequat voluptate voluptate aliqua ex labore amet ullamco. Nulla est nisi ex laborum Lorem qui. Irure laborum amet esse aliqua pariatur voluptate tempor duis non deserunt. Magna ad ipsum voluptate nulla.
+                                SOFBO es una empresa especializada en servicios de desarrollo de software a medida que brinda soluciones utilizando tecnologías de última generación.
                             </div>
                         </div>
                     </Animated>

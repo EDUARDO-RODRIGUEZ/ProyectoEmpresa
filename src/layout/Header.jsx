@@ -9,8 +9,8 @@ const Header = () => {
                 <div className="container mx-auto navbar bg-base-100 border-b">
                     <div className="flex-1">
                         <Link to={"/"} className="btn btn-ghost normal-case text-2xl fredoka">
-                            <span className={"text-red-500"}>DEV</span>
-                            <span>SOFT</span>
+                            <span className={"text-red-500"}>SOFT</span>
+                            <span>BO</span>
                         </Link>
                     </div>
                     <div className="hidden md:block flex-none">
