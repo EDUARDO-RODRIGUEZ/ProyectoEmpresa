@@ -11,8 +11,8 @@ const Proyecto = () => {
             <div className='flex flex-wrap gap-4 justify-center sm:justify-between'>
 
                 <a href="https://hands-sign.netlify.app/" target="_blank">
-                    <div className="w-full rounded-md sm:w-80 bg-base-100 shadow-xl hover:transition-all hover:duration-150 hover:scale-95 cursor-pointer">
-                        <figure><img src={lsbicon} className='rounded-md  w-full' alt="Shoes" /></figure>
+                    <div className="w-full rounded-md sm:w-72 sm:h-[500px] bg-base-100 shadow-xl hover:transition-all hover:duration-150 hover:scale-95 cursor-pointer">
+                        <figure><img src={lsbicon} className='rounded-md object-scale-down w-full' alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Proyecto LSB</h2>
                             <p>
@@ -23,8 +23,8 @@ const Proyecto = () => {
                 </a>
 
                 <a href="https://www.w3schools.com" target="_blank">
-                    <div className="w-full rounded-md sm:w-80 bg-base-100 shadow-xl hover:transition-all hover:duration-150 hover:scale-95 cursor-pointer">
-                        <figure><img src={fundacionicon} className='rounded-md w-full' alt="Shoes" /></figure>
+                    <div className="w-full rounded-md sm:w-72 sm:h-[500px] bg-base-100 shadow-xl hover:transition-all hover:duration-150 hover:scale-95 cursor-pointer">
+                        <figure><img src={fundacionicon} className='rounded-md object-cover w-full' alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Proyecto Fundacion-Fintech</h2>
                             <p>
@@ -35,8 +35,8 @@ const Proyecto = () => {
                 </a>
 
                 <a href="https://www.w3schools.com" target="_blank">
-                    <div className="w-full rounded-md  sm:w-80 bg-base-100 shadow-xl hover:transition-all hover:duration-150 hover:scale-95 cursor-pointer">
-                        <figure><img src={empresaicon} className='rounded-md  w-full' alt="Shoes" /></figure>
+                    <div className="w-full rounded-md sm:w-72 sm:h-[500px] bg-base-100 shadow-xl hover:transition-all hover:duration-150 hover:scale-95 cursor-pointer">
+                        <figure><img src={empresaicon} className='rounded-md object-cover w-full' alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Proyecto DevSoft</h2>
                             <p>Web de empresa de bolivia el cual ofrecen varid de servicios de software </p>

@@ -13,7 +13,7 @@ const About = () => {
             <div className='flex flex-col sm:flex-row gap-4 justify-around'>
                 <a href="https://hands-sign.netlify.app/" target="_blank">
                     <div className="w-full rounded-md sm:w-80 bg-base-100 shadow-xl hover:transition-all hover:duration-150 hover:scale-95 cursor-pointer">
-                        <figure className='p-5'><img src={perfiljhovani} className='rounded-2xl w-full' alt="Shoes" /></figure>
+                        <figure className='p-5'><img src={perfiljhovani} className='object-cover rounded-2xl w-full' alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Giovanny Jesus Choque Centeno</h2>
                             <p>
@@ -40,7 +40,7 @@ const About = () => {
 
                 <a href="https://www.w3schools.com" target="_blank">
                     <div className="w-full rounded-md sm:w-80 bg-base-100 shadow-xl hover:transition-all hover:duration-150 hover:scale-95 cursor-pointer">
-                        <figure className='p-5'><img src={perfileduardo} className='rounded-2xl w-full' alt="Shoes" /></figure>
+                        <figure className='p-5'><img src={perfileduardo} className='object-cover rounded-2xl w-full' alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Jorge Eduardo Cruz Rodirguez</h2>
                             <p>

@@ -1,16 +1,15 @@
 import React from 'react'
 import { Animated } from 'react-animated-css'
 import FormContacto from '../../component/FormContacto'
-import Proyecto from '../../component/proyecto'
+import Proyecto from '../../component/Proyecto'
 import Servicio from '../../component/Servicio'
 import iconEmpresa from '../../assets/image/empresa.png';
 
 const PageHome = () => {
     return (
-        <main>
-
+        <main className='pb-30'>
             <div className="container mx-auto navbar bg-base-100">
-                <div className='grid grid-cols-1 p-2 sm:p-0 sm:grid-cols-2  gap-2'>
+                <div className='grid grid-cols-1 p-2 sm:p-0 sm:grid-cols-2  gap-2 mt-2'>
 
                     <Animated animationIn="fadeInLeft" isVisible={true}>
                         <div>
@@ -29,7 +28,7 @@ const PageHome = () => {
 
                     <div className='hidden sm:block'>
                         <Animated animationIn="fadeInDown" isVisible={true}>
-                            <img src={iconEmpresa} alt="sds" />
+                                <img width={450} src={iconEmpresa} alt="empresa" className={"ml-auto"} />
                         </Animated>
                     </div>
 
@@ -43,7 +42,6 @@ const PageHome = () => {
             <FormContacto />
 
         </main>
-
     )
 }
 

@@ -3,9 +3,9 @@ import React from 'react'
 const Footer = () => {
     return (
         <footer>
-            <div className="container mx-auto bg-base-100 p-5 rounded-t-sm border">
-                <div className='flex justify-between'>
-                    <div className='p-5 w-2/3'>
+            <div className="container mx-auto bg-base-100 p-5 rounded-t-sm border-t border-t-stone-600">
+                <div className='flex justify-between flex-wrap'>
+                    <div className='p-5 md:w-2/3'>
                         <h3 className='fredoka text-xl'>
                             <span className={"text-red-500"}>SOFT</span>
                             <span>BO</span>
@@ -15,7 +15,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className='p-5 w-1/3'>
+                    <div className='p-5 md:w-1/3'>
                         <h3 className='fredoka text-xl'>
                             <span className={"text-red-500"}>SER</span>
                             <span>VICES</span>
